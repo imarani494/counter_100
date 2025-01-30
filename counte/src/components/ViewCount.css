@@ -1,0 +1,77 @@
+.counter-container {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color:white;
+  padding: 20px 40px;
+ 
+  border-radius: 20px;
+  box-shadow: rgba(243, 235, 235, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.number {
+  font-size: 80px;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  color: #1a1a1a;
+}
+
+.heading {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 5px;
+ 
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: "Verdana", Geneva, sans-serif;
+  background-color:red;
+  cursor: pointer;
+  transition: border-color 0.5s;
+  margin-left: 10px;
+}
+
+.add-button {
+  
+  background-color: rgb(86, 204, 244);
+}
+
+.dec-button {
+ 
+  background-color: lightblue;
+}
+
+.label {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  bottom: 7px;
+  right: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Tahoma", Geneva, sans-serif;
+}
+
+.switch-container {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  left: 10px;
+  margin-top: 30px;
+}
+
+.label {
+  
+  position: relative;
+  margin-left: 18px;
+  bottom: 7px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Tahoma", Geneva, sans-serif;
+  color: #333; 
+}
+

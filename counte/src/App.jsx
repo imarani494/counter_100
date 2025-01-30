@@ -1,14 +1,15 @@
-import React from "react";
-
-import "./App.css";
-import Count from "./components/Count";
-
-function App() {
+import React from 'react';
+import ViewCount from './components/ViewCount';
+import { startAutoIncrement } from './view/CounterService';
+ 
+import './App.css'
+const App = () => {
+  startAutoIncrement();
   return (
     <div className="App">
-      <Count/>
+     <ViewCount/>
     </div>
   );
-}
+};
 
 export default App;
